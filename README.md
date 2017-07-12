@@ -36,9 +36,9 @@ webapps : Place where all webapps are deployed manually
 
 ===========================Using Eclipse for Java WCD===========================
 
-  Configure your server on Eclipse : Eclipse -> Preferences -> Server -> Run 
-     time envir. -> Add         
-ii)  File -> New -> Dynamic Web Project -> Name It and Click Ok
+  Configure your server on Eclipse : 
+ i)  New -> Server -> Follow steps as per wizard keeping in mind version of Tomcat
+ii)  File -> New -> Dynamic Web Project -> Name It, select version as 2.5(to get web.xml created auto) and Click Ok
 iii) Go to the Project created and Go to properties -> In Java Build Path -> 	      
      Libraries ->Add External JARs -> Tomcat/lib -> Servlet-api.jar -> Order
      And Export -> Select All -> Apply and Close
